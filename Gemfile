@@ -49,6 +49,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'better_errors'  
 end
 
 group :test do
@@ -65,6 +66,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 gem 'jquery-rails'
+gem 'devise'
+gem 'haml-rails'
+gem 'font-awesome-sass', '~> 5.13.0'
+gem 'active_hash'
 
 group :production do
   gem 'pg'
